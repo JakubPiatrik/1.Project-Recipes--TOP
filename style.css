@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/02/58/36/06/1000_F_258360649_n0r6MH9zR8C9pEiefE9toqrNB5C0RsC4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0 24px;
+}
+
+body {
+    width: 100%;
+    display: inline-block;
+}
+
+div.recipes {
+    display: inline-block;
+}
+
+.recepty {
+    display: block;
+    position: relative;
+    margin: 50px 200px;
+    padding: 100px 35px;
+    border: solid;
+    background-color: rgba(0, 0, 0, 0.829);
+    border-radius: 35px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+img {
+    display: inline-block;
+    width: 500px;
+    height: 250px; 
+}
+
+h1 {
+
+    color: gold;
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+    transition:all  0.35s;
+    text-decoration: underline;   
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+h3 {
+    color: gold;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.35s; 
+}
+
+h4 {
+    color: gold;
+    font-size: 1.40rem;
+}
+
+hr {
+    border: 1px solid white;
+    margin: 20px 0;
+}
+
+.recipes {
+    width: 100%;
+    border: solid;
+    border-radius: 25px;
+    position: relative;
+    background-color:white;
+    padding: 25px;
+    text-align: left;
+    display: grid;
+    transition:all  0.35s;
+}
+
+.recipes  a {
+    
+        color: #000000;
+        font-size: 1.4rem;
+        text-decoration: none;
+        margin-bottom: 6px;         
+}
+
+.recipes  a:hover {
+    color: gold;
+}
+
+li {
+    font-size: 1.1rem;
+    text-align: left;
+    margin: 25px 0;
+}
+
+.list li {
+
+    margin: 25px 0;
+    color: #000000;
+}
+
+.div li {
+    margin: 100px 0;
+}
+
+.top {
+    margin-top: 50px;
+}
+
+.top a {
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.375s;
+        color: gold;     
+}
+
+.top a:hover {
+    color: white;
+}
+
+.footer a {
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-decoration: none;
+    margin-bottom: 6px;   
+}
+
+.footer a:hover {
+    color: gold;
+}
+
+@media (width >= 500px){
+    body {
+        padding: 0;
+    }
+
+    .recipes{
+        margin: 0;
+        width: 400px;
+    }
+}
